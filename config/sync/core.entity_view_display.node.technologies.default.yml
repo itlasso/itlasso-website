@@ -1,0 +1,36 @@
+uuid: edef3277-c70f-4391-b3f2-1c21671e4a8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.technologies.field_body
+    - node.type.technologies
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.technologies.default
+targetEntityType: node
+bundle: technologies
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  layout_builder__layout: true

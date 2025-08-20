@@ -1,0 +1,22 @@
+uuid: ef479146-a204-40b8-b091-a2905734c1f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.technologies
+id: node.technologies.promote
+field_name: promote
+entity_type: node
+bundle: technologies
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,13 @@
+uuid: bb0cd7cc-3e3b-44ba-85c3-c90413a7dee6
+langcode: en
+status: true
+dependencies: {  }
+id: simplifyit_video
+label: Simplifyit-video
+description: ''
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_video_file
+field_map: {  }

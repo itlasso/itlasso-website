@@ -1,0 +1,22 @@
+uuid: 78d30263-c687-43bb-aaeb-3c668ee4bd4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: technologies_content
+label: 'Technologies content'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  e1256531-c1cf-4dd7-8ea9-3dbc741122d7:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: e1256531-c1cf-4dd7-8ea9-3dbc741122d7
+    context_mapping:
+      node: node
+    bundles:
+      technologies: technologies
+selection_logic: and
+weight: -5
+relationships: {  }

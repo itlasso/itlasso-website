@@ -1,0 +1,11 @@
+uuid: 176a3818-e085-4c5b-a5fb-d9b72ee51584
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.support_ticket
+id: node.support_ticket
+target_entity_type_id: node
+target_bundle: support_ticket
+default_langcode: site_default
+language_alterable: false

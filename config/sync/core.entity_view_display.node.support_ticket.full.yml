@@ -1,0 +1,52 @@
+uuid: 6ae46561-deb4-4726-a5cd-5d4a081de192
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.support_ticket.body
+    - field.field.node.support_ticket.field_email
+    - field.field.node.support_ticket.field_name
+    - field.field.node.support_ticket.layout_builder__layout
+    - node.type.support_ticket
+  module:
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          39c8ac1a-ed4d-407a-96d4-ee142ac3616a:
+            uuid: 39c8ac1a-ed4d-407a-96d4-ee142ac3616a
+            region: content
+            configuration:
+              id: 'extra_field_block:node:support_ticket:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.support_ticket.full
+targetEntityType: node
+bundle: support_ticket
+mode: full
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_email: true
+  field_name: true
+  langcode: true
+  layout_builder__layout: true

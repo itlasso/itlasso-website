@@ -1,0 +1,22 @@
+uuid: ff55b88f-73aa-4d91-a2e1-f9dc6ed497ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: support
+label: Support
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  d728565f-3594-4cf8-86e2-d9322bad19e5:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d728565f-3594-4cf8-86e2-d9322bad19e5
+    context_mapping:
+      node: node
+    bundles:
+      support_ticket: support_ticket
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -43,3 +43,8 @@ sites/*/private/
 sites/*/files-php/
 sites/*/files/css/
 sites/*/files/js/
+/autoload.php
+# Ignore old hashed files config dirs
+sites/*/files/config_*/
+# Ignore editor backup files
+*.bak

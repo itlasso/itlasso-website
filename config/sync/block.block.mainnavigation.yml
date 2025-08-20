@@ -1,0 +1,33 @@
+uuid: 1b8e81ee-ceae-4118-8b98-77cbae05bd99
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - gavias_hook_themer
+    - system
+  theme:
+    - notech_subtheme
+third_party_settings:
+  gavias_hook_themer:
+    classes: ''
+id: mainnavigation
+theme: notech_subtheme
+region: main_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/about-us\r\n/ai-your-business\r\n/technologies\r\n/contact-us\r\n/website-development\r\n/website-hosting\r\n/technical-services\r\n/ai-your-business\r\n/mobile-application-development\r\n/media-production\r\n/shop\r\n/why-not-use-wix\r\n/support-help-desk\r\n/publishing"

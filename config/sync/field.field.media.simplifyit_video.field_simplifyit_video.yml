@@ -1,0 +1,28 @@
+uuid: c5837ef7-c58f-46b2-998b-4956f04fd66b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_simplifyit_video
+    - media.type.simplifyit_video
+id: media.simplifyit_video.field_simplifyit_video
+field_name: field_simplifyit_video
+entity_type: media
+bundle: simplifyit_video
+label: Simplifyit-video
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      simplifyit_video: simplifyit_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: simplifyit_video
+field_type: entity_reference

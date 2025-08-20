@@ -1,0 +1,27 @@
+uuid: a74a1b25-27c5-48a7-9691-53685fafdc20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_file
+    - media.type.simplifyit_video
+  module:
+    - file
+id: media.simplifyit_video.field_media_video_file
+field_name: field_media_video_file
+entity_type: media
+bundle: simplifyit_video
+label: 'Video file'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp4
+  max_filesize: ''
+  description_field: false
+field_type: file

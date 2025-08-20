@@ -1,0 +1,30 @@
+uuid: 7c8c6170-5307-4389-8ad7-fb2a37778fe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.simplifyit_video.field_media_video_file
+    - field.field.media.simplifyit_video.field_simplifyit_video
+    - media.type.simplifyit_video
+id: media.simplifyit_video.media_library
+targetEntityType: media
+bundle: simplifyit_video
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_video_file: true
+  field_simplifyit_video: true
+  langcode: true
+  path: true
+  status: true
+  uid: true
