@@ -1,6 +1,6 @@
 uuid: 1b8e81ee-ceae-4118-8b98-77cbae05bd99
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -14,7 +14,7 @@ third_party_settings:
     classes: ''
 id: mainnavigation
 theme: notech_subtheme
-region: main_menu
+region: ''
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
@@ -24,7 +24,7 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 0
+  depth: null
   expand_all_items: true
 visibility:
   request_path:
