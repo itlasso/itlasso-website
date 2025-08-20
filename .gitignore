@@ -1,0 +1,22 @@
+# Composer & vendor
+/vendor/
+composer.phar
+
+# Drupal runtime & caches
+/sites/*/files/
+/sites/*/private/
+/sites/*/services.local.yml
+/sites/*/settings.local.php
+/sites/*/settings.php         # avoid committing DB creds; keep a settings.example.php instead
+/sites/*/settings.ddev.php
+/sites/*/files-php/
+/sites/*/files/css/
+/sites/*/files/js/
+/sites/*/files/php/
+
+# Misc
+*.log
+.env
+.opcache_reset.php
+.DS_Store
+node_modules/
