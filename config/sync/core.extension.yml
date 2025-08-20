@@ -18,7 +18,6 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
-  dropdown_language: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_modal: 0
@@ -28,10 +27,6 @@ module:
   filter: 0
   fontawesome: 0
   fontawesome_menu_icons: 0
-  gavias_hook_themer: 0
-  gavias_pagebuilder: 0
-  gavias_sliderlayer: 0
-  gavias_view: 0
   help: 0
   history: 0
   image: 0
@@ -40,7 +35,6 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
-  ludwig: 0
   media: 0
   media_library: 0
   menu_ui: 0
@@ -57,7 +51,6 @@ module:
   simple_sitemap_engines: 0
   simple_sitemap_views: 0
   smtp: 0
-  support_ticket: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -65,7 +58,6 @@ module:
   toolbar: 0
   update: 0
   user: 0
-  views_infinite_scroll: 0
   views_ui: 0
   webform: 0
   webform_ui: 0
@@ -75,8 +67,6 @@ module:
   views: 10
   standard: 1000
 theme:
-  notech: 0
-  notech_subtheme: 0
   olivero: 0
   claro: 0
 profile: standard
