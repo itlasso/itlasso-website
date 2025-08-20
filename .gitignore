@@ -26,3 +26,9 @@ node_modules/
 *.tar
 *.tar.gz
 *.tgz
+
+# Drupal settings (keep examples only)
+sites/*/settings.php
+sites/*/default.settings.php
+sites/*/default.services.yml
+sites/*/settings.local.php
