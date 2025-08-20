@@ -14,7 +14,7 @@ third_party_settings:
     classes: ''
 id: menuservices
 theme: notech_subtheme
-region: ''
+region: offcanvas
 weight: 0
 provider: null
 plugin: 'system_menu_block:menu-services'

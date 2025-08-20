@@ -15,7 +15,7 @@ third_party_settings:
     classes: ''
 id: views_block__categories_post_block_2
 theme: notech_subtheme
-region: ''
+region: offcanvas
 weight: -7
 provider: null
 plugin: 'views_block:categories_post-block_2'

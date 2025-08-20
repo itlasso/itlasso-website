@@ -27,6 +27,10 @@ module:
   filter: 0
   fontawesome: 0
   fontawesome_menu_icons: 0
+  gavias_hook_themer: 0
+  gavias_pagebuilder: 0
+  gavias_sliderlayer: 0
+  gavias_view: 0
   help: 0
   history: 0
   image: 0
@@ -69,4 +73,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  notech: 0
+  notech_subtheme: 0
 profile: standard
