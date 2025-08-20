@@ -32,3 +32,14 @@ sites/*/settings.php
 sites/*/default.settings.php
 sites/*/default.services.yml
 sites/*/settings.local.php
+
+# Drupal/Composer
+/core/
+/vendor/
+/modules/contrib/
+/themes/contrib/
+sites/*/files/
+sites/*/private/
+sites/*/files-php/
+sites/*/files/css/
+sites/*/files/js/
