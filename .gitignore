@@ -48,3 +48,6 @@ sites/*/files/js/
 sites/*/files/config_*/
 # Ignore editor backup files
 *.bak
+
+# Ignore accidental nested clone
+itlasso-website/
