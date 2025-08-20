@@ -20,3 +20,9 @@ composer.phar
 .opcache_reset.php
 .DS_Store
 node_modules/
+
+# Ignore archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
