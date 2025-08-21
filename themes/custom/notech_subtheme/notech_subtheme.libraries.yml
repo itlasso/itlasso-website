@@ -1,0 +1,22 @@
+notech_subtheme.skin.default:
+   version: VERSION
+   header: true
+   css:
+      theme:
+         css/style.css: {}
+   js:
+      js/main.js: {}
+
+notech_subtheme.video_controls:
+  version: 1.0
+  js:
+    js/video-controls.js: {}
+    
+itl_voice_schema:
+  version: 1.x
+  js:
+    js/itl-schema.js: {}
+  dependencies:
+    - core/jquery
+
+

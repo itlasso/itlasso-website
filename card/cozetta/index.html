@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cozetta Smith - Digital Business Card</title>
+  <link rel="manifest" href="cozetta-manifest.json">
+  <link rel="apple-touch-icon" href="cozetta-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="IT Lasso Card">
+  <meta name="theme-color" content="#000000" />
+  <style>
+    body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background-color: #000000;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      max-width: 400px;
+      width: 100%;
+    }
+    .logo {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+    .name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #008080;
+    }
+    .info {
+      margin: 10px 0;
+    }
+    .download-btn {
+      background-color: #ff851b;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .qr {
+      margin-top: 20px;
+    }
+    .qr-label {
+      font-size: 0.95rem;
+      color: #bdc4c1;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="IT Lasso Logo" class="logo" />
+    <div class="name">Cozetta Smith</div>
+    <div class="info">Mobile: <a href="tel:3303610485" style="color:#bdc4c1;">330-361-0485</a></div>
+    <div class="info">Email: <a href="mailto:cozetta@itlasso.com" style="color:#bdc4c1;">cozetta@itlasso.com</a></div>
+    <div class="info">Company: IT Lasso, LLC</div>
+    <div class="info">Address: 101 Central Plz S, Suite 602, Canton, OH 44702</div>
+    <div class="info">Website: <a href="https://itlasso.com" style="color:#bdc4c1;" target="_blank">itlasso.com</a></div>
+    <a class="download-btn" href="cozetta.vcf" download>Download Contact (.vcf)</a>
+    <div class="qr">
+      <div class="qr-label">Scan QR or tap phone here 👇</div>
+      <img src="cozetta-qr.png" alt="Scan to Save" width="150" />
+    </div>
+  </div>
+</body>
+</html>

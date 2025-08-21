@@ -1,0 +1,54 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function support_ticket_install() {
+  // Create the Support Ticket content type if it doesn't already exist.
+  $content_type = 
+\Drupal::entityTypeManager()->getStorage('node_type')->load('support_ticket');
+  if (!$content_type) {
+    $content_type = \Drupal\node\Entity\NodeType::create([
+      'type' => 'support_ticket',
+      'name' => 'Support Ticket',
+    ]);
+    $content_type->save();
+  }
+
+  // Add the Name field.
+  if (!\Drupal::service('entity_field.manager')->getFieldDefinitions('node', 
+'support_ticket')['field_name']) {
+    \Drupal\field\Entity\FieldStorageConfig::create([
+      'field_name' => 'field_name',
+      'entity_type' => 'node',
+      'type' => 'string',
+    ])->save();
+
+    \Drupal\field\Entity\FieldConfig::create([
+      'field_name' => 'field_name',
+      'entity_type' => 'node',
+      'bundle' => 'support_ticket',
+      'label' => 'Name',
+      'required' => TRUE,
+    ])->save();
+  }
+
+  // Add the Email field.
+  if (!\Drupal::service('entity_field.manager')->getFieldDefinitions('node', 
+'support_ticket')['field_email']) {
+    \Drupal\field\Entity\FieldStorageConfig::create([
+      'field_name' => 'field_email',
+      'entity_type' => 'node',
+      'type' => 'email',
+    ])->save();
+
+    \Drupal\field\Entity\FieldConfig::create([
+      'field_name' => 'field_email',
+      'entity_type' => 'node',
+      'bundle' => 'support_ticket',
+      'label' => 'Email',
+      'required' => TRUE,
+    ])->save();
+  }
+}
+

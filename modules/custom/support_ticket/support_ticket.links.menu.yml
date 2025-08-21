@@ -1,0 +1,7 @@
+support_ticket.submit_ticket:
+  title: 'Submit a Ticket'
+  description: 'Create a new support ticket.'
+  parent: system.main
+  route_name: support_ticket.submit_ticket
+  weight: 5
+

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_mail().
+ */
+function support_ticket_mail($key, &$message, $params) {
+  switch ($key) {
+    case 'ticket_notification':
+      $message['subject'] = 'New Support Ticket: ' . $params['subject'];
+      $message['body'][] = "A new support ticket has been submitted:";
+      $message['body'][] = "Subject: " . $params['subject'];
+      $message['body'][] = "Priority: " . $params['priority'];
+      $message['body'][] = "Description:\n" . $params['description'];
+      break;
+  }
+}
+

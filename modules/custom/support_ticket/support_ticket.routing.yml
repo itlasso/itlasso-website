@@ -1,0 +1,8 @@
+support_ticket.submit_ticket:
+  path: '/support/ticket/submit'
+  defaults:
+    _form: '\Drupal\support_ticket\Form\TicketSubmissionForm'
+    _title: 'Submit a Support Ticket'
+  requirements:
+    _permission: 'access content'
+
