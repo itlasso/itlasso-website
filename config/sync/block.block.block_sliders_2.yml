@@ -1,6 +1,6 @@
 uuid: 6c0a4a1c-800f-473d-85e5-58a609df3a3a
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - gavias_hook_themer

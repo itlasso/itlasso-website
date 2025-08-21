@@ -12,8 +12,8 @@ third_party_settings:
     classes: ''
 id: block_sliders_1
 theme: notech_subtheme
-region: other
-weight: 0
+region: slideshow_content
+weight: -10
 provider: null
 plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
 settings:
