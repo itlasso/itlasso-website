@@ -1,19 +1,20 @@
-uuid: 5bd18e42-8003-4c1e-b2a5-56405958a762
+uuid: 1346cc20-75dd-4059-90df-f7ed5aa0c911
 langcode: en
 status: true
 dependencies:
   module:
     - gavias_hook_themer
     - gavias_sliderlayer
+    - system
   theme:
     - notech_subtheme
 third_party_settings:
   gavias_hook_themer:
     classes: ''
-id: block_sliders_1
+id: notech_subtheme_gaviassliderlayerslidersi
 theme: notech_subtheme
 region: slideshow_content
-weight: -10
+weight: 0
 provider: null
 plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
 settings:
@@ -21,4 +22,8 @@ settings:
   label: 'Gavias SliderLayer - Sliders I'
   label_display: '0'
   provider: gavias_sliderlayer
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
