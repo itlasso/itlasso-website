@@ -1,6 +1,6 @@
 uuid: 9858caae-a139-4123-9a17-d76a5aff3716
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.categories_post
@@ -15,7 +15,7 @@ third_party_settings:
     classes: ''
 id: views_block__categories_post_block_2
 theme: notech_subtheme
-region: offcanvas
+region: sidebar_right
 weight: -7
 provider: null
 plugin: 'views_block:categories_post-block_2'

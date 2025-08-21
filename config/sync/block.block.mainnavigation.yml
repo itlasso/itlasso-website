@@ -1,6 +1,6 @@
 uuid: 1b8e81ee-ceae-4118-8b98-77cbae05bd99
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -14,7 +14,7 @@ third_party_settings:
     classes: ''
 id: mainnavigation
 theme: notech_subtheme
-region: offcanvas
+region: main_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'

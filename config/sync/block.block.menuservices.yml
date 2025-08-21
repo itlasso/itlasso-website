@@ -1,6 +1,6 @@
 uuid: 34415862-fe51-46af-95b3-ddfa1ed67b64
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.menu-services
@@ -14,7 +14,7 @@ third_party_settings:
     classes: ''
 id: menuservices
 theme: notech_subtheme
-region: offcanvas
+region: other
 weight: 0
 provider: null
 plugin: 'system_menu_block:menu-services'
